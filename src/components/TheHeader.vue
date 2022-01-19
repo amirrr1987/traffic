@@ -1,5 +1,5 @@
 <template>
-  <header class="header bg-center bg-cover h-[50vw] relative overflow-hidden">
+  <header class="header bg-center bg-cover relative overflow-hidden w-full aspect-[16/7.5]">
     <TrafficLight
       :redStatus="true"
       :yellowStatus="false"
@@ -17,11 +17,13 @@
       heightSize="32vw"
     />
     <TheRedCar class="w-[23vw] absolute left-[-3vw] top-[22vw]" />
+    <TheOrangeCar class="absolute w-[18vw] h-min left-[50vw] bottom-[0vw]" />
   </header>
 </template>
 <script setup lang="ts">
 import TrafficLight from "./TrafficLight.vue";
 import TheRedCar from "./TheRedCar.vue";
+import TheOrangeCar from "./TheOrangeCar.vue";
 </script>
 <style>
 .header {
