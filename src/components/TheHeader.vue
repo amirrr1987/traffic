@@ -4,8 +4,8 @@
       :redStatus="true"
       :yellowStatus="false"
       :greenStatus="false"
-      leftPosition="30vw"
-      topPosition="5.4vw"
+      leftPosition="30.5vw"
+      topPosition="3.8vw"
       heightSize="22vw"
     />
     <TrafficLight
@@ -13,8 +13,8 @@
       :yellowStatus="false"
       :greenStatus="false"
       leftPosition="71vw"
-      topPosition="4vw"
-      heightSize="32vw"
+      topPosition="6vw"
+      heightSize="28vw"
     />
     <TheRedCar class="w-[23vw] absolute left-[-3vw] top-[22vw]" />
     <TheOrangeCar class="absolute w-[18vw] h-min left-[50vw] bottom-[0vw]" />
