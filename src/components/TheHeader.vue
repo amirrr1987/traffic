@@ -16,10 +16,12 @@
       topPosition="4vw"
       heightSize="32vw"
     />
+    <TheRedCar class="w-[23vw] absolute left-[-3vw] top-[22vw]" />
   </header>
 </template>
 <script setup lang="ts">
 import TrafficLight from "./TrafficLight.vue";
+import TheRedCar from "./TheRedCar.vue";
 </script>
 <style>
 .header {
