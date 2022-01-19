@@ -1,5 +1,5 @@
 <template>
-<svg class="inline-block absolute" :style="`left:${leftPosition}; top: ${topPosition}; height: ${heightSize} `" viewBox="0 0 82 345">
+<svg class="traffic-light inline-block absolute" :style="`left:${leftPosition}; top: ${topPosition}; height: ${heightSize} `" viewBox="0 0 82 345">
 	<title>Traffic Light</title>
   {{redStatus}}
 	<g id="&lt;Group&gt;">
@@ -56,20 +56,20 @@
 })
 </script>
 	<style>
-		.s0 { fill: #fff7cc } 
-		.s1 { fill: #ffde9f } 
-		.s2 { fill: #d17372 } 
-		.s3 { fill: #864aa8 } 
-		.s4 { fill: #462a66 } 
-		.s5 { fill: #564963 } 
-		.s6 { fill: #724899 } 
-		.s7 { fill: #bd290f } 
-		.s8 { fill: #3d1a63 } 
-		.s9 { fill: #bd660f } 
-		.s10 { fill: #50b848 } 
-		.s11 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
-		.s12 { opacity: .6;mix-blend-mode: overlay;fill: #fff7cc } 
-		.s13 { opacity: .4;mix-blend-mode: multiply;fill: #564963 } 
-		.s14 { opacity: .7;fill: #cc76b2 } 
-		.s15 { fill: #cc76b2 } 
+		.traffic-light .s0 { fill: #fff7cc } 
+		.traffic-light .s1 { fill: #ffde9f } 
+		.traffic-light .s2 { fill: #d17372 } 
+		.traffic-light .s3 { fill: #864aa8 } 
+		.traffic-light .s4 { fill: #462a66 } 
+		.traffic-light .s5 { fill: #564963 } 
+		.traffic-light .s6 { fill: #724899 } 
+		.traffic-light .s7 { fill: #bd290f } 
+		.traffic-light .s8 { fill: #3d1a63 } 
+		.traffic-light .s9 { fill: #bd660f } 
+		.traffic-light .s10 { fill: #50b848 } 
+		.traffic-light .s11 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
+		.traffic-light .s12 { opacity: .6;mix-blend-mode: overlay;fill: #fff7cc } 
+		.traffic-light .s13 { opacity: .4;mix-blend-mode: multiply;fill: #564963 } 
+		.traffic-light .s14 { opacity: .7;fill: #cc76b2 } 
+		.traffic-light .s15 { fill: #cc76b2 } 
 	</style>

@@ -1,5 +1,5 @@
 <template>
-<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 278" width="240" height="278">
+<svg class="the-orange-car" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 278" >
 	<title>OrangeCar</title>
 	<defs>
 		<linearGradient id="g1" x1="39" y1="140.9" x2="39" y2="162.8" gradientUnits="userSpaceOnUse">
@@ -136,31 +136,31 @@
 	</g>
 </svg>
 </template>
-	<style scoped>
-		.s0 { fill: url(#g1) } 
-		.s1 { fill: url(#g2) } 
-		.s2 { opacity: .4;mix-blend-mode: multiply;fill: #b86053 } 
-		.s3 { opacity: .5;mix-blend-mode: screen;fill: #fff7cc } 
-		.s4 { fill: url(#g3) } 
-		.s5 { fill: url(#g4) } 
-		.s6 { fill: url(#g5) } 
-		.s7 { fill: url(#g6) } 
-		.s8 { fill: url(#g7) } 
-		.s9 { fill: url(#g8) } 
-		.s10 { fill: url(#g9) } 
-		.s11 { fill: url(#g10) } 
-		.s12 { fill: url(#g11) } 
-		.s13 { opacity: .7;mix-blend-mode: screen;fill: url(#g12) } 
-		.s14 { opacity: .7;mix-blend-mode: screen;fill: url(#g13) } 
-		.s15 { opacity: .7;mix-blend-mode: screen;fill: url(#g14) } 
-		.s16 { opacity: .7;mix-blend-mode: screen;fill: url(#g15) } 
-		.s17 { opacity: .7;mix-blend-mode: screen;fill: url(#g16) } 
-		.s18 { fill: #ffd699 } 
-		.s19 { fill: #fff7cc } 
-		.s20 { fill: #9a1418 } 
-		.s21 { opacity: .3;mix-blend-mode: screen;fill: #fff7cc } 
-		.s22 { fill: #d96118 } 
-		.s23 { fill: url(#g17) } 
-		.s24 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
-		.s25 { opacity: .6;mix-blend-mode: multiply;fill: #b86053 } 
+	<style>
+		.the-orange-car .s0 { fill: url(#g1) } 
+		.the-orange-car .s1 { fill: url(#g2) } 
+		.the-orange-car .s2 { opacity: .4;mix-blend-mode: multiply;fill: #b86053 } 
+		.the-orange-car .s3 { opacity: .5;mix-blend-mode: screen;fill: #fff7cc } 
+		.the-orange-car .s4 { fill: url(#g3) } 
+		.the-orange-car .s5 { fill: url(#g4) } 
+		.the-orange-car .s6 { fill: url(#g5) } 
+		.the-orange-car .s7 { fill: url(#g6) } 
+		.the-orange-car .s8 { fill: url(#g7) } 
+		.the-orange-car .s9 { fill: url(#g8) } 
+		.the-orange-car .s10 { fill: url(#g9) } 
+		.the-orange-car .s11 { fill: url(#g10) } 
+		.the-orange-car .s12 { fill: url(#g11) } 
+		.the-orange-car .s13 { opacity: .7;mix-blend-mode: screen;fill: url(#g12) } 
+		.the-orange-car .s14 { opacity: .7;mix-blend-mode: screen;fill: url(#g13) } 
+		.the-orange-car .s15 { opacity: .7;mix-blend-mode: screen;fill: url(#g14) } 
+		.the-orange-car .s16 { opacity: .7;mix-blend-mode: screen;fill: url(#g15) } 
+		.the-orange-car .s17 { opacity: .7;mix-blend-mode: screen;fill: url(#g16) } 
+		.the-orange-car .s18 { fill: #ffd699 } 
+		.the-orange-car .s19 { fill: #fff7cc } 
+		.the-orange-car .s20 { fill: #9a1418 } 
+		.the-orange-car .s21 { opacity: .3;mix-blend-mode: screen;fill: #fff7cc } 
+		.the-orange-car .s22 { fill: #d96118 } 
+		.the-orange-car .s23 { fill: url(#g17) } 
+		.the-orange-car .s24 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
+		.the-orange-car .s25 { opacity: .6;mix-blend-mode: multiply;fill: #b86053 } 
 	</style>

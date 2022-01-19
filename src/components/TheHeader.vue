@@ -16,14 +16,16 @@
       topPosition="6vw"
       heightSize="28vw"
     />
-    <TheRedCar class="w-[23vw] absolute left-[-3vw] top-[22vw]" />
+    <TheRedCar class="w-[23vw] absolute left-[-2vw] top-[20vw]" />
     <TheOrangeCar class="absolute w-[18vw] h-min left-[50vw] bottom-[0vw]" />
+    <TheOldMan class="w-[14vw] absolute left-[14vw] top-[21vw]" />
   </header>
 </template>
 <script setup lang="ts">
 import TrafficLight from "./TrafficLight.vue";
 import TheRedCar from "./TheRedCar.vue";
 import TheOrangeCar from "./TheOrangeCar.vue";
+import TheOldMan from "./TheOldMan.vue";
 </script>
 <style>
 .header {
