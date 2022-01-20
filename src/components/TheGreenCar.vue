@@ -1,75 +1,75 @@
 <template>
 <svg viewBox="0 0 396 191" class="green-car" :style="`left:${leftPosition}; top: ${topPosition}; height: ${heightSize} `">
-	<title>1599-ai</title>
+	<title>The Green Car</title>
 	<defs>
-		<linearGradient id="g1" x1="279.8" y1="140.1" x2="279.8" y2="189.8" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar1" x1="279.8" y1="140.1" x2="279.8" y2="189.8" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<radialGradient id="g2" cx="306.5" cy="158.9" r="27.2" gradientUnits="userSpaceOnUse">
+		<radialGradient id="geenCar2" cx="306.5" cy="158.9" r="27.2" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</radialGradient>
-		<linearGradient id="g3" x1="75.2" y1="140.1" x2="75.2" y2="189.8" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar3" x1="75.2" y1="140.1" x2="75.2" y2="189.8" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<radialGradient id="g4" cx="101.9" cy="158.9" r="27.2" gradientUnits="userSpaceOnUse">
+		<radialGradient id="geenCar4" cx="101.9" cy="158.9" r="27.2" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</radialGradient>
-		<linearGradient id="g5" x1="148.8" y1="8" x2="148.8" y2="84.8" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar5" x1="148.8" y1="8" x2="148.8" y2="84.8" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#00b8c4"/>
 			<stop offset=".3" stop-color="#83f7c7"/>
 			<stop offset="1" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g6" x1="374.7" y1="85.8" x2="374.7" y2="41.4" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar6" x1="374.7" y1="85.8" x2="374.7" y2="41.4" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#83f7c7"/>
 			<stop offset=".7" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g7" x1="41.5" y1="73.4" x2="44.4" y2="138.6" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar7" x1="41.5" y1="73.4" x2="44.4" y2="138.6" gradientUnits="userSpaceOnUse">
 			<stop offset=".1" stop-color="#fcee52"/>
 			<stop offset=".7" stop-color="#4f9630"/>
 		</linearGradient>
-		<linearGradient id="g8" x1="215.1" y1="164.5" x2="215.1" y2="128.6" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar8" x1="215.1" y1="164.5" x2="215.1" y2="128.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<linearGradient id="g9" x1="384.4" y1="65.5" x2="369.9" y2="65.5" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar9" x1="384.4" y1="65.5" x2="369.9" y2="65.5" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset="1" stop-color="#9a1418"/>
 		</linearGradient>
-		<linearGradient id="g10" x1="263.5" y1="84.9" x2="263.5" y2="10.9" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar10" x1="263.5" y1="84.9" x2="263.5" y2="10.9" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<linearGradient id="g11" x1="171.8" y1="3.5" x2="283.2" y2="64.6" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar11" x1="171.8" y1="3.5" x2="283.2" y2="64.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fcee52"/>
 			<stop offset=".8" stop-color="#4f9630"/>
 		</linearGradient>
-		<linearGradient id="g12" x1="221.5" y1="99.3" x2="221.5" y2="71.4" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar12" x1="221.5" y1="99.3" x2="221.5" y2="71.4" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fff7cc"/>
 			<stop offset="1" stop-color="#fff7cc"/>
 		</linearGradient>
-		<linearGradient id="g13" x1="328.2" y1="97.3" x2="328.2" y2="83.2" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar13" x1="328.2" y1="97.3" x2="328.2" y2="83.2" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fcee52"/>
 			<stop offset=".8" stop-color="#4f9630"/>
 		</linearGradient>
-		<linearGradient id="g14" x1="228.2" y1="99" x2="228.2" y2="86.2" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar14" x1="228.2" y1="99" x2="228.2" y2="86.2" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fcee52"/>
 			<stop offset=".8" stop-color="#4f9630"/>
 		</linearGradient>
-		<radialGradient id="g15" cx="62.3" cy="160.7" r="4" gradientUnits="userSpaceOnUse">
+		<radialGradient id="geenCar15" cx="62.3" cy="160.7" r="4" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#83f7c7"/>
 			<stop offset=".9" stop-color="#00b8c4"/>
 		</radialGradient>
-		<linearGradient id="g16" x1="262.3" y1="50.7" x2="262.3" y2="12.2" gradientUnits="userSpaceOnUse">
+		<linearGradient id="geenCar16" x1="262.3" y1="50.7" x2="262.3" y2="12.2" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fff7cc"/>
 			<stop offset="1" stop-color="#fff7cc"/>
 		</linearGradient>
@@ -181,20 +181,20 @@
 		.green-car .s0 { fill: #fff7cc } 
 		.green-car .s1 { fill: #001138 } 
 		.green-car .s2 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
-		.green-car .s3 { fill: url(#g1) } 
+		.green-car .s3 { fill: url(#geenCar1) } 
 		.green-car .s4 { fill: #002a40 } 
-		.green-car .s5 { fill: url(#g2) } 
+		.green-car .s5 { fill: url(#geenCar2) } 
 		.green-car .s6 { opacity: .5;mix-blend-mode: screen;fill: #fff7cc } 
 		.green-car .s7 { opacity: .4;mix-blend-mode: screen;fill: #fff7cc } 
 		.green-car .s8 { opacity: .5;mix-blend-mode: multiply;fill: #22567d } 
-		.green-car .s9 { fill: url(#g3) } 
-		.green-car .s10 { fill: url(#g4) } 
-		.green-car .s11 { fill: url(#g5) } 
-		.green-car .s12 { fill: url(#g6) } 
-		.green-car .s13 { fill: url(#g7) } 
-		.green-car .s14 { fill: url(#g8) } 
+		.green-car .s9 { fill: url(#geenCar3) } 
+		.green-car .s10 { fill: url(#geenCar4) } 
+		.green-car .s11 { fill: url(#geenCar5) } 
+		.green-car .s12 { fill: url(#geenCar6) } 
+		.green-car .s13 { fill: url(#geenCar7) } 
+		.green-car .s14 { fill: url(#geenCar8) } 
 		.green-car .s15 { fill: #003957 } 
-		.green-car .s16 { fill: url(#g9) } 
+		.green-car .s16 { fill: url(#geenCar9) } 
 		.green-car .s17 { fill: #ffd699 } 
 		.green-car .s18 { fill: #d96118 } 
 		.green-car .s19 { fill: #3d7028 } 
@@ -204,13 +204,13 @@
 		.green-car .s23 { fill: #9a1418 } 
 		.green-car .s24 { opacity: .3;mix-blend-mode: screen;fill: #fff7cc } 
 		.green-car .s25 { fill: #b86053 } 
-		.green-car .s26 { fill: url(#g10) } 
-		.green-car .s27 { fill: url(#g11) } 
+		.green-car .s26 { fill: url(#geenCar10) } 
+		.green-car .s27 { fill: url(#geenCar11) } 
 		.green-car .s28 { opacity: .7;mix-blend-mode: screen;fill: #fff7cc } 
-		.green-car .s29 { opacity: .7;mix-blend-mode: screen;fill: url(#g12) } 
-		.green-car .s30 { fill: url(#g13) } 
-		.green-car .s31 { fill: url(#g14) } 
+		.green-car .s29 { opacity: .7;mix-blend-mode: screen;fill: url(#geenCar12) } 
+		.green-car .s30 { fill: url(#geenCar13) } 
+		.green-car .s31 { fill: url(#geenCar14) } 
 		.green-car .s32 { opacity: .2;mix-blend-mode: screen;fill: #fff7cc } 
-		.green-car .s33 { fill: url(#g15) } 
-		.green-car .s34 { opacity: .7;mix-blend-mode: screen;fill: url(#g16) } 
+		.green-car .s33 { fill: url(#geenCar15) } 
+		.green-car .s34 { opacity: .7;mix-blend-mode: screen;fill: url(#geenCar16) } 
 	</style>

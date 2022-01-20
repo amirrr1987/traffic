@@ -1,77 +1,77 @@
 <template>
 <svg viewBox="0 0 240 277" class="orange-car" :style="`left:${leftPosition}; top: ${topPosition}; height: ${heightSize} `">
-	<title>1599-ai</title>
+	<title>The Orange Car</title>
 	<defs>
-		<linearGradient id="g1" x1="39" y1="140.9" x2="39" y2="162.8" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar1" x1="39" y1="140.9" x2="39" y2="162.8" gradientUnits="userSpaceOnUse">
 			<stop offset=".1" stop-color="#fcee21"/>
 			<stop offset=".7" stop-color="#f77f0f"/>
 		</linearGradient>
-		<linearGradient id="g2" x1="-1.5" y1="167.3" x2="-1.5" y2="142.4" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar2" x1="-1.5" y1="167.3" x2="-1.5" y2="142.4" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#00b8c4"/>
 			<stop offset=".3" stop-color="#83f7c7"/>
 			<stop offset="1" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g3" x1="200.8" y1="140.9" x2="200.8" y2="162.8" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar3" x1="200.8" y1="140.9" x2="200.8" y2="162.8" gradientUnits="userSpaceOnUse">
 			<stop offset=".1" stop-color="#fcee21"/>
 			<stop offset=".7" stop-color="#f77f0f"/>
 		</linearGradient>
-		<linearGradient id="g4" x1="241.3" y1="167.3" x2="241.3" y2="142.4" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar4" x1="241.3" y1="167.3" x2="241.3" y2="142.4" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#00b8c4"/>
 			<stop offset=".3" stop-color="#83f7c7"/>
 			<stop offset="1" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g5" x1="36.2" y1="168.8" x2="36.2" y2="3.2" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar5" x1="36.2" y1="168.8" x2="36.2" y2="3.2" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#00b8c4"/>
 			<stop offset=".3" stop-color="#83f7c7"/>
 			<stop offset="1" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g6" x1="38.1" y1="157" x2="38.1" y2="94" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar6" x1="38.1" y1="157" x2="38.1" y2="94" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#83f7c7"/>
 			<stop offset=".7" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g7" x1="213.6" y1="-4.3" x2="209.1" y2="159.4" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar7" x1="213.6" y1="-4.3" x2="209.1" y2="159.4" gradientUnits="userSpaceOnUse">
 			<stop offset=".1" stop-color="#fcee21"/>
 			<stop offset=".7" stop-color="#f77f0f"/>
 		</linearGradient>
-		<linearGradient id="g8" x1="228.4" y1="144.4" x2="228.4" y2="264.3" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar8" x1="228.4" y1="144.4" x2="228.4" y2="264.3" gradientUnits="userSpaceOnUse">
 			<stop offset=".1" stop-color="#fcee21"/>
 			<stop offset=".7" stop-color="#f77f0f"/>
 		</linearGradient>
-		<linearGradient id="g9" x1="58.8" y1="249.7" x2="58.8" y2="273" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar9" x1="58.8" y1="249.7" x2="58.8" y2="273" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<linearGradient id="g10" x1="180.8" y1="249.7" x2="180.8" y2="273" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar10" x1="180.8" y1="249.7" x2="180.8" y2="273" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<linearGradient id="g11" x1="12.2" y1="224.4" x2="11.3" y2="197.5" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar11" x1="12.2" y1="224.4" x2="11.3" y2="197.5" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset="1" stop-color="#9a1418"/>
 		</linearGradient>
-		<linearGradient id="g12" x1="13.6" y1="207.3" x2="16.4" y2="144.3" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar12" x1="13.6" y1="207.3" x2="16.4" y2="144.3" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fff7cc"/>
 			<stop offset="1" stop-color="#fff7cc"/>
 		</linearGradient>
-		<linearGradient id="g13" x1="225.4" y1="207.2" x2="221.9" y2="144.1" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar13" x1="225.4" y1="207.2" x2="221.9" y2="144.1" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fff7cc"/>
 			<stop offset="1" stop-color="#fff7cc"/>
 		</linearGradient>
-		<linearGradient id="g14" x1="36.3" y1="212.8" x2="36.1" y2="151.5" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar14" x1="36.3" y1="212.8" x2="36.1" y2="151.5" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fff7cc"/>
 			<stop offset="1" stop-color="#fff7cc"/>
 		</linearGradient>
-		<linearGradient id="g15" x1="117.5" y1="212.4" x2="117.3" y2="151.7" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar15" x1="117.5" y1="212.4" x2="117.3" y2="151.7" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fff7cc"/>
 			<stop offset="1" stop-color="#fff7cc"/>
 		</linearGradient>
-		<linearGradient id="g16" x1="35.5" y1="123.8" x2="35.5" y2="-5.8" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar16" x1="35.5" y1="123.8" x2="35.5" y2="-5.8" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fff7cc"/>
 			<stop offset="1" stop-color="#fff7cc"/>
 		</linearGradient>
-		<linearGradient id="g17" x1="227.9" y1="224.4" x2="228.8" y2="197.5" gradientUnits="userSpaceOnUse">
+		<linearGradient id="orangeCar17" x1="227.9" y1="224.4" x2="228.8" y2="197.5" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset="1" stop-color="#9a1418"/>
 		</linearGradient>
@@ -144,30 +144,30 @@
 })
 </script>
 	<style>
-		.orange-car .s0 { fill: url(#g1) } 
-		.orange-car .s1 { fill: url(#g2) } 
+		.orange-car .s0 { fill: url(#orangeCar1) } 
+		.orange-car .s1 { fill: url(#orangeCar2) } 
 		.orange-car .s2 { opacity: .4;mix-blend-mode: multiply;fill: #b86053 } 
 		.orange-car .s3 { opacity: .5;mix-blend-mode: screen;fill: #fff7cc } 
-		.orange-car .s4 { fill: url(#g3) } 
-		.orange-car .s5 { fill: url(#g4) } 
-		.orange-car .s6 { fill: url(#g5) } 
-		.orange-car .s7 { fill: url(#g6) } 
-		.orange-car .s8 { fill: url(#g7) } 
-		.orange-car .s9 { fill: url(#g8) } 
-		.orange-car .s10 { fill: url(#g9) } 
-		.orange-car .s11 { fill: url(#g10) } 
-		.orange-car .s12 { fill: url(#g11) } 
-		.orange-car .s13 { opacity: .7;mix-blend-mode: screen;fill: url(#g12) } 
-		.orange-car .s14 { opacity: .7;mix-blend-mode: screen;fill: url(#g13) } 
-		.orange-car .s15 { opacity: .7;mix-blend-mode: screen;fill: url(#g14) } 
-		.orange-car .s16 { opacity: .7;mix-blend-mode: screen;fill: url(#g15) } 
-		.orange-car .s17 { opacity: .7;mix-blend-mode: screen;fill: url(#g16) } 
+		.orange-car .s4 { fill: url(#orangeCar3) } 
+		.orange-car .s5 { fill: url(#orangeCar4) } 
+		.orange-car .s6 { fill: url(#orangeCar5) } 
+		.orange-car .s7 { fill: url(#orangeCar6) } 
+		.orange-car .s8 { fill: url(#orangeCar7) } 
+		.orange-car .s9 { fill: url(#orangeCar8) } 
+		.orange-car .s10 { fill: url(#orangeCar9) } 
+		.orange-car .s11 { fill: url(#orangeCar10) } 
+		.orange-car .s12 { fill: url(#orangeCar11) } 
+		.orange-car .s13 { opacity: .7;mix-blend-mode: screen;fill: url(#orangeCar12) } 
+		.orange-car .s14 { opacity: .7;mix-blend-mode: screen;fill: url(#orangeCar13) } 
+		.orange-car .s15 { opacity: .7;mix-blend-mode: screen;fill: url(#orangeCar14) } 
+		.orange-car .s16 { opacity: .7;mix-blend-mode: screen;fill: url(#orangeCar15) } 
+		.orange-car .s17 { opacity: .7;mix-blend-mode: screen;fill: url(#orangeCar16) } 
 		.orange-car .s18 { fill: #ffd699 } 
 		.orange-car .s19 { fill: #fff7cc } 
 		.orange-car .s20 { fill: #9a1418 } 
 		.orange-car .s21 { opacity: .3;mix-blend-mode: screen;fill: #fff7cc } 
 		.orange-car .s22 { fill: #d96118 } 
-		.orange-car .s23 { fill: url(#g17) } 
+		.orange-car .s23 { fill: url(#orangeCar17) } 
 		.orange-car .s24 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
 		.orange-car .s25 { opacity: .6;mix-blend-mode: multiply;fill: #b86053 } 
 	</style>

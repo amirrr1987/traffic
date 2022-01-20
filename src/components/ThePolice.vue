@@ -1,63 +1,63 @@
 <template>
-<svg viewBox="0 0 162 384" class="police-man" :style="`left:${leftPosition}; top: ${topPosition}; height: ${heightSize} `" >
-	<title>1599-ai</title>
+<svg viewBox="0 0 162 384" class="police absolute" :style="`left:${leftPosition}; top: ${topPosition}; height: ${heightSize} `" >
+	<title>The Police</title>
 	<defs>
-		<linearGradient id="g1" x1="64.5" y1="174.6" x2="102.1" y2="157.9" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police1" x1="64.5" y1="174.6" x2="102.1" y2="157.9" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#22567d"/>
 			<stop offset="1" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g2" x1="157.8" y1="185.5" x2="121.8" y2="238.8" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police2" x1="157.8" y1="185.5" x2="121.8" y2="238.8" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset=".6" stop-color="#ffd699"/>
 		</linearGradient>
-		<linearGradient id="g3" x1="87.2" y1="250.9" x2="87.2" y2="343.9" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police3" x1="87.2" y1="250.9" x2="87.2" y2="343.9" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<linearGradient id="g4" x1="74.4" y1="156.9" x2="74.4" y2="172.9" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police4" x1="74.4" y1="156.9" x2="74.4" y2="172.9" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset=".6" stop-color="#ffd699"/>
 		</linearGradient>
-		<linearGradient id="g5" x1="40.2" y1="191.9" x2="40.2" y2="169.3" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police5" x1="40.2" y1="191.9" x2="40.2" y2="169.3" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#22567d"/>
 			<stop offset="1" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g6" x1="104.2" y1="154.5" x2="104.2" y2="211.1" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police6" x1="104.2" y1="154.5" x2="104.2" y2="211.1" gradientUnits="userSpaceOnUse">
 			<stop offset=".1" stop-color="#fcee21"/>
 			<stop offset=".7" stop-color="#f77f0f"/>
 		</linearGradient>
-		<linearGradient id="g7" x1="33.9" y1="258.3" x2="33.9" y2="244.3" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police7" x1="33.9" y1="258.3" x2="33.9" y2="244.3" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset="1" stop-color="#9a1418"/>
 		</linearGradient>
-		<linearGradient id="g8" x1="83.4" y1="126" x2="83.4" y2="148.9" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police8" x1="83.4" y1="126" x2="83.4" y2="148.9" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset=".6" stop-color="#ffd699"/>
 		</linearGradient>
-		<linearGradient id="g9" x1="26.2" y1="121.2" x2="26.2" y2="95.8" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police9" x1="26.2" y1="121.2" x2="26.2" y2="95.8" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#22567d"/>
 			<stop offset="1" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g10" x1="40.4" y1="95.9" x2="80.8" y2="95.9" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police10" x1="40.4" y1="95.9" x2="80.8" y2="95.9" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<linearGradient id="g11" x1="86.5" y1="117.9" x2="86.5" y2="131.7" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police11" x1="86.5" y1="117.9" x2="86.5" y2="131.7" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<linearGradient id="g12" x1="5.2" y1="208.1" x2="3.2" y2="154.7" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police12" x1="5.2" y1="208.1" x2="3.2" y2="154.7" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#22567d"/>
 			<stop offset="1" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g13" x1="47" y1="162.9" x2="34.1" y2="197" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police13" x1="47" y1="162.9" x2="34.1" y2="197" gradientUnits="userSpaceOnUse">
 			<stop offset=".1" stop-color="#fcee21"/>
 			<stop offset=".7" stop-color="#f77f0f"/>
 		</linearGradient>
-		<linearGradient id="g14" x1="29.1" y1="78" x2="26.8" y2="141" gradientUnits="userSpaceOnUse">
+		<linearGradient id="police14" x1="29.1" y1="78" x2="26.8" y2="141" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset=".6" stop-color="#ffd699"/>
 		</linearGradient>
@@ -198,45 +198,45 @@
 })
 </script>
 	<style>
-		.police-man .s0 { fill: #fff7cc } 
-		.police-man .s1 { fill: url(#g1) } 
-		.police-man .s2 { fill: url(#g2) } 
-		.police-man .s3 { fill: #dad1c0 } 
-		.police-man .s4 { opacity: .5;mix-blend-mode: multiply;fill: #547275 } 
-		.police-man .s5 { opacity: .3;mix-blend-mode: screen;fill: #fff7cc } 
-		.police-man .s6 { opacity: .4;mix-blend-mode: multiply;fill: #22567d } 
-		.police-man .s7 { fill: #f7f4eb } 
-		.police-man .s8 { opacity: .3;mix-blend-mode: multiply;fill: #b86053 } 
-		.police-man .s9 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
-		.police-man .s10 { fill: #600003 } 
-		.police-man .s11 { opacity: .2;mix-blend-mode: screen;fill: #fff7cc } 
-		.police-man .s12 { opacity: .6;mix-blend-mode: multiply;fill: #b86053 } 
-		.police-man .s13 { fill: url(#g3) } 
-		.police-man .s14 { fill: #131f49 } 
-		.police-man .s15 { fill: #14466a } 
-		.police-man .s16 { fill: url(#g4) } 
-		.police-man .s17 { fill: url(#g5) } 
-		.police-man .s18 { fill: #00b8c4 } 
-		.police-man .s19 { opacity: .5;mix-blend-mode: multiply;fill: #22567d } 
-		.police-man .s20 { fill: url(#g6) } 
-		.police-man .s21 { fill: url(#g7) } 
-		.police-man .s22 { fill: #f7a01e } 
-		.police-man .s23 { opacity: .3;mix-blend-mode: multiply;fill: #ad522f } 
-		.police-man .s24 { opacity: .5;mix-blend-mode: screen;fill: #fff7cc } 
-		.police-man .s25 { opacity: .5;mix-blend-mode: multiply;fill: #ad522f } 
-		.police-man .s26 { opacity: .1;mix-blend-mode: multiply;fill: #b86053 } 
-		.police-man .s27 { fill: #f0835e } 
-		.police-man .s28 { opacity: .4;mix-blend-mode: multiply;fill: #b86053 } 
-		.police-man .s29 { fill: url(#g8) } 
-		.police-man .s30 { fill: #f09372 } 
-		.police-man .s31 { fill: url(#g9) } 
-		.police-man .s32 { fill: url(#g10) } 
-		.police-man .s33 { fill: url(#g11) } 
-		.police-man .s34 { opacity: .6;mix-blend-mode: multiply;fill: #22567d } 
-		.police-man .s35 { opacity: .4;mix-blend-mode: screen;fill: #fff7cc } 
-		.police-man .s36 { opacity: .6;mix-blend-mode: screen;fill: #fff7cc } 
-		.police-man .s37 { fill: url(#g12) } 
-		.police-man .s38 { fill: url(#g13) } 
-		.police-man .s39 { fill: url(#g14) } 
-		.police-man .s40 { fill: #d96118 } 
+		.police .s0 { fill: #fff7cc } 
+		.police .s1 { fill: url(#police1) } 
+		.police .s2 { fill: url(#police2) } 
+		.police .s3 { fill: #dad1c0 } 
+		.police .s4 { opacity: .5;mix-blend-mode: multiply;fill: #547275 } 
+		.police .s5 { opacity: .3;mix-blend-mode: screen;fill: #fff7cc } 
+		.police .s6 { opacity: .4;mix-blend-mode: multiply;fill: #22567d } 
+		.police .s7 { fill: #f7f4eb } 
+		.police .s8 { opacity: .3;mix-blend-mode: multiply;fill: #b86053 } 
+		.police .s9 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
+		.police .s10 { fill: #600003 } 
+		.police .s11 { opacity: .2;mix-blend-mode: screen;fill: #fff7cc } 
+		.police .s12 { opacity: .6;mix-blend-mode: multiply;fill: #b86053 } 
+		.police .s13 { fill: url(#police3) } 
+		.police .s14 { fill: #131f49 } 
+		.police .s15 { fill: #14466a } 
+		.police .s16 { fill: url(#police4) } 
+		.police .s17 { fill: url(#police5) } 
+		.police .s18 { fill: #00b8c4 } 
+		.police .s19 { opacity: .5;mix-blend-mode: multiply;fill: #22567d } 
+		.police .s20 { fill: url(#police6) } 
+		.police .s21 { fill: url(#police7) } 
+		.police .s22 { fill: #f7a01e } 
+		.police .s23 { opacity: .3;mix-blend-mode: multiply;fill: #ad522f } 
+		.police .s24 { opacity: .5;mix-blend-mode: screen;fill: #fff7cc } 
+		.police .s25 { opacity: .5;mix-blend-mode: multiply;fill: #ad522f } 
+		.police .s26 { opacity: .1;mix-blend-mode: multiply;fill: #b86053 } 
+		.police .s27 { fill: #f0835e } 
+		.police .s28 { opacity: .4;mix-blend-mode: multiply;fill: #b86053 } 
+		.police .s29 { fill: url(#police8) } 
+		.police .s30 { fill: #f09372 } 
+		.police .s31 { fill: url(#police9) } 
+		.police .s32 { fill: url(#police10) } 
+		.police .s33 { fill: url(#police11) } 
+		.police .s34 { opacity: .6;mix-blend-mode: multiply;fill: #22567d } 
+		.police .s35 { opacity: .4;mix-blend-mode: screen;fill: #fff7cc } 
+		.police .s36 { opacity: .6;mix-blend-mode: screen;fill: #fff7cc } 
+		.police .s37 { fill: url(#police12) } 
+		.police .s38 { fill: url(#police13) } 
+		.police .s39 { fill: url(#police14) } 
+		.police .s40 { fill: #d96118 } 
 	</style>

@@ -1,112 +1,112 @@
 <template>
 <svg viewBox="0 0 240 252" class="old-man" :style="`left:${leftPosition}; top: ${topPosition}; height: ${heightSize} `">
-	<title>1599-ai</title>
+	<title>The Old Man</title>
 	<defs>
-		<linearGradient id="g1" x1="26.1" y1="134.8" x2="94.7" y2="58.1" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan1" x1="26.1" y1="134.8" x2="94.7" y2="58.1" gradientUnits="userSpaceOnUse">
 			<stop offset=".1" stop-color="#fcee52"/>
 			<stop offset=".8" stop-color="#4f9630"/>
 		</linearGradient>
-		<linearGradient id="g2" x1="96.9" y1="12.6" x2="158" y2="3.5" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan2" x1="96.9" y1="12.6" x2="158" y2="3.5" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset=".6" stop-color="#ffd699"/>
 		</linearGradient>
-		<linearGradient id="g3" x1="208.5" y1="212" x2="93.5" y2="233.7" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan3" x1="208.5" y1="212" x2="93.5" y2="233.7" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset="1" stop-color="#9a1418"/>
 		</linearGradient>
-		<linearGradient id="g4" x1="35.8" y1="72.8" x2="36" y2="83.6" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan4" x1="35.8" y1="72.8" x2="36" y2="83.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset="1" stop-color="#9a1418"/>
 		</linearGradient>
-		<linearGradient id="g5" x1="173.4" y1="224.7" x2="172.5" y2="247.3" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan5" x1="173.4" y1="224.7" x2="172.5" y2="247.3" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<radialGradient id="g6" cx="160.1" cy="233.2" r="9" gradientUnits="userSpaceOnUse">
+		<radialGradient id="oldMan6" cx="160.1" cy="233.2" r="9" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</radialGradient>
-		<linearGradient id="g7" x1="42.2" y1="68.9" x2="43.2" y2="87.6" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan7" x1="42.2" y1="68.9" x2="43.2" y2="87.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset="1" stop-color="#9a1418"/>
 		</linearGradient>
-		<linearGradient id="g8" x1="21.5" y1="69.9" x2="22.4" y2="88.6" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan8" x1="21.5" y1="69.9" x2="22.4" y2="88.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset="1" stop-color="#9a1418"/>
 		</linearGradient>
-		<linearGradient id="g9" x1="31.3" y1="149.9" x2="35.6" y2="147.1" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan9" x1="31.3" y1="149.9" x2="35.6" y2="147.1" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</linearGradient>
-		<linearGradient id="g10" x1="36.7" y1="153.9" x2="38.7" y2="152.6" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan10" x1="36.7" y1="153.9" x2="38.7" y2="152.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</linearGradient>
-		<linearGradient id="g11" x1="12.2" y1="201.2" x2="11.2" y2="196.3" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan11" x1="12.2" y1="201.2" x2="11.2" y2="196.3" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</linearGradient>
-		<linearGradient id="g12" x1="18.6" y1="198" x2="18.3" y2="195.7" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan12" x1="18.6" y1="198" x2="18.3" y2="195.7" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</linearGradient>
-		<linearGradient id="g13" x1="46.1" y1="240.4" x2="41.6" y2="238.7" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan13" x1="46.1" y1="240.4" x2="41.6" y2="238.7" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</linearGradient>
-		<linearGradient id="g14" x1="46.3" y1="233.7" x2="44.6" y2="233" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan14" x1="46.3" y1="233.7" x2="44.6" y2="233" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</linearGradient>
-		<linearGradient id="g15" x1="77.2" y1="156.3" x2="72.2" y2="154.8" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan15" x1="77.2" y1="156.3" x2="72.2" y2="154.8" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</linearGradient>
-		<linearGradient id="g16" x1="66.7" y1="185.9" x2="63.5" y2="184.9" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan16" x1="66.7" y1="185.9" x2="63.5" y2="184.9" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</linearGradient>
-		<linearGradient id="g17" x1="100" y1="185.3" x2="99.6" y2="180.6" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan17" x1="100" y1="185.3" x2="99.6" y2="180.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</linearGradient>
-		<linearGradient id="g18" x1="69.1" y1="189.6" x2="68.7" y2="187.2" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan18" x1="69.1" y1="189.6" x2="68.7" y2="187.2" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</linearGradient>
-		<linearGradient id="g19" x1="84.8" y1="220.4" x2="88.5" y2="217.3" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan19" x1="84.8" y1="220.4" x2="88.5" y2="217.3" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</linearGradient>
-		<linearGradient id="g20" x1="65.9" y1="195.4" x2="67.7" y2="193.9" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan20" x1="65.9" y1="195.4" x2="67.7" y2="193.9" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</linearGradient>
-		<radialGradient id="g21" cx="67" cy="186.3" r="18.7" gradientUnits="userSpaceOnUse">
+		<radialGradient id="oldMan21" cx="67" cy="186.3" r="18.7" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</radialGradient>
-		<linearGradient id="g22" x1="123.1" y1="132.2" x2="123.1" y2="234.9" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan22" x1="123.1" y1="132.2" x2="123.1" y2="234.9" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<linearGradient id="g23" x1="135.5" y1="168.6" x2="89.6" y2="263" gradientUnits="userSpaceOnUse">
+		<linearGradient id="oldMan23" x1="135.5" y1="168.6" x2="89.6" y2="263" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
@@ -281,9 +281,9 @@
 		.old-man .s0 { fill: #fff7cc } 
 		.old-man .s1 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
 		.old-man .s2 { fill: #131f49 } 
-		.old-man .s3 { fill: url(#g1) } 
+		.old-man .s3 { fill: url(#oldMan1) } 
 		.old-man .s4 { opacity: .3;mix-blend-mode: multiply;fill: #708588 } 
-		.old-man .s5 { fill: url(#g2) } 
+		.old-man .s5 { fill: url(#oldMan2) } 
 		.old-man .s6 { opacity: .3;mix-blend-mode: multiply;fill: #b86053 } 
 		.old-man .s7 { fill: #dad1c0 } 
 		.old-man .s8 { opacity: .4;mix-blend-mode: multiply;fill: #b86053 } 
@@ -291,35 +291,35 @@
 		.old-man .s10 { opacity: .4;mix-blend-mode: multiply;fill: #708588 } 
 		.old-man .s11 { opacity: .5;mix-blend-mode: screen;fill: #fff7cc } 
 		.old-man .s12 { opacity: .3;mix-blend-mode: screen;fill: #fff7cc } 
-		.old-man .s13 { fill: url(#g3) } 
+		.old-man .s13 { fill: url(#oldMan3) } 
 		.old-man .s14 { opacity: .6;mix-blend-mode: multiply;fill: #b86053 } 
 		.old-man .s15 { fill: #600003 } 
 		.old-man .s16 { opacity: .2;mix-blend-mode: screen;fill: #fff7cc } 
 		.old-man .s17 { fill: #22567d } 
 		.old-man .s18 { opacity: .4;mix-blend-mode: multiply;fill: #14466a } 
-		.old-man .s19 { fill: url(#g4) } 
-		.old-man .s20 { fill: url(#g5) } 
+		.old-man .s19 { fill: url(#oldMan4) } 
+		.old-man .s20 { fill: url(#oldMan5) } 
 		.old-man .s21 { opacity: .7;mix-blend-mode: multiply;fill: #22567d } 
-		.old-man .s22 { fill: url(#g6) } 
+		.old-man .s22 { fill: url(#oldMan6) } 
 		.old-man .s23 { opacity: .4;mix-blend-mode: screen;fill: #fff7cc } 
-		.old-man .s24 { fill: url(#g7) } 
-		.old-man .s25 { fill: url(#g8) } 
+		.old-man .s24 { fill: url(#oldMan7) } 
+		.old-man .s25 { fill: url(#oldMan8) } 
 		.old-man .s26 { fill: #d9e021 } 
-		.old-man .s27 { fill: url(#g9) } 
-		.old-man .s28 { fill: url(#g10) } 
-		.old-man .s29 { fill: url(#g11) } 
-		.old-man .s30 { fill: url(#g12) } 
-		.old-man .s31 { fill: url(#g13) } 
-		.old-man .s32 { fill: url(#g14) } 
-		.old-man .s33 { fill: url(#g15) } 
-		.old-man .s34 { fill: url(#g16) } 
-		.old-man .s35 { fill: url(#g17) } 
-		.old-man .s36 { fill: url(#g18) } 
-		.old-man .s37 { fill: url(#g19) } 
-		.old-man .s38 { fill: url(#g20) } 
-		.old-man .s39 { fill: url(#g21) } 
-		.old-man .s40 { fill: url(#g22) } 
-		.old-man .s41 { fill: url(#g23) } 
+		.old-man .s27 { fill: url(#oldMan9) } 
+		.old-man .s28 { fill: url(#oldMan10) } 
+		.old-man .s29 { fill: url(#oldMan11) } 
+		.old-man .s30 { fill: url(#oldMan12) } 
+		.old-man .s31 { fill: url(#oldMan13) } 
+		.old-man .s32 { fill: url(#oldMan14) } 
+		.old-man .s33 { fill: url(#oldMan15) } 
+		.old-man .s34 { fill: url(#oldMan16) } 
+		.old-man .s35 { fill: url(#oldMan17) } 
+		.old-man .s36 { fill: url(#oldMan18) } 
+		.old-man .s37 { fill: url(#oldMan19) } 
+		.old-man .s38 { fill: url(#oldMan20) } 
+		.old-man .s39 { fill: url(#oldMan21) } 
+		.old-man .s40 { fill: url(#oldMan22) } 
+		.old-man .s41 { fill: url(#oldMan23) } 
 		.old-man .s42 { opacity: .3;mix-blend-mode: multiply;fill: #22567d } 
 		.old-man .s43 { fill: #ffd699 } 
 	</style>

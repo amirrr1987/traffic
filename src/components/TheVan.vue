@@ -1,74 +1,74 @@
 <template>
 <svg viewBox="0 0 351 275" class="van" :style="`left:${leftPosition}; top: ${topPosition}; height: ${heightSize} `" >
-	<title>1599-ai</title>
+	<title>The Van</title>
 	<defs>
-		<linearGradient id="g1" x1="48.5" y1="228.6" x2="31.8" y2="270.6" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van1" x1="48.5" y1="228.6" x2="31.8" y2="270.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<radialGradient id="g2" cx="66.4" cy="244.6" r="23.6" gradientUnits="userSpaceOnUse">
+		<radialGradient id="van2" cx="66.4" cy="244.6" r="23.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</radialGradient>
-		<linearGradient id="g3" x1="233.1" y1="228.6" x2="216.5" y2="270.6" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van3" x1="233.1" y1="228.6" x2="216.5" y2="270.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#131f49"/>
 			<stop offset=".9" stop-color="#14466a"/>
 			<stop offset="1" stop-color="#22567d"/>
 		</linearGradient>
-		<radialGradient id="g4" cx="251" cy="244.6" r="23.6" gradientUnits="userSpaceOnUse">
+		<radialGradient id="van4" cx="251" cy="244.6" r="23.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e2f0d5"/>
 			<stop offset=".4" stop-color="#708588"/>
 			<stop offset="1" stop-color="#dad1c0"/>
 		</radialGradient>
-		<linearGradient id="g5" x1="14.2" y1="-28.7" x2="5.2" y2="287" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van5" x1="14.2" y1="-28.7" x2="5.2" y2="287" gradientUnits="userSpaceOnUse">
 			<stop offset=".1" stop-color="#f3ac36"/>
 			<stop offset=".7" stop-color="#ee2e24"/>
 		</linearGradient>
-		<linearGradient id="g6" x1="23.4" y1="167.9" x2="23.4" y2="189.2" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van6" x1="23.4" y1="167.9" x2="23.4" y2="189.2" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#b86053"/>
 			<stop offset="1" stop-color="#b86053"/>
 		</linearGradient>
-		<linearGradient id="g7" x1="52.5" y1="88.1" x2="52.5" y2="33.4" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van7" x1="52.5" y1="88.1" x2="52.5" y2="33.4" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fff7cc"/>
 			<stop offset="1" stop-color="#fff7cc"/>
 		</linearGradient>
-		<linearGradient id="g8" x1="37.7" y1="88.6" x2="37.7" y2="33.8" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van8" x1="37.7" y1="88.6" x2="37.7" y2="33.8" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fff7cc"/>
 			<stop offset="1" stop-color="#fff7cc"/>
 		</linearGradient>
-		<linearGradient id="g9" x1="343.1" y1="88.3" x2="343.1" y2="17.8" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van9" x1="343.1" y1="88.3" x2="343.1" y2="17.8" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#fff7cc"/>
 			<stop offset="1" stop-color="#fff7cc"/>
 		</linearGradient>
-		<linearGradient id="g10" x1="92" y1="114.8" x2="79.5" y2="12" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van10" x1="92" y1="114.8" x2="79.5" y2="12" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#00b8c4"/>
 			<stop offset=".3" stop-color="#83f7c7"/>
 			<stop offset="1" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g11" x1="48.8" y1="111.8" x2="36.5" y2="18.2" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van11" x1="48.8" y1="111.8" x2="36.5" y2="18.2" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#00b8c4"/>
 			<stop offset=".3" stop-color="#83f7c7"/>
 			<stop offset="1" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g12" x1="317.7" y1="165.3" x2="296.7" y2="165.3" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van12" x1="317.7" y1="165.3" x2="296.7" y2="165.3" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#e7855f"/>
 			<stop offset="1" stop-color="#9a1418"/>
 		</linearGradient>
-		<linearGradient id="g13" x1="94.7" y1="140.9" x2="94.7" y2="116.6" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van13" x1="94.7" y1="140.9" x2="94.7" y2="116.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#4da9a3"/>
 			<stop offset="1" stop-color="#004d5c"/>
 		</linearGradient>
-		<linearGradient id="g14" x1="87.5" y1="99.3" x2="80.9" y2="53.6" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van14" x1="87.5" y1="99.3" x2="80.9" y2="53.6" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#83f7c7"/>
 			<stop offset=".7" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g15" x1="45.8" y1="104.1" x2="39.2" y2="53.4" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van15" x1="45.8" y1="104.1" x2="39.2" y2="53.4" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#83f7c7"/>
 			<stop offset=".7" stop-color="#00b8c4"/>
 		</linearGradient>
-		<linearGradient id="g16" x1="64.3" y1="122.7" x2="80.7" y2="143" gradientUnits="userSpaceOnUse">
+		<linearGradient id="van16" x1="64.3" y1="122.7" x2="80.7" y2="143" gradientUnits="userSpaceOnUse">
 			<stop offset=".1" stop-color="#f3ac36"/>
 			<stop offset=".7" stop-color="#ee2e24"/>
 		</linearGradient>
@@ -176,34 +176,34 @@
 	<style>
 		.van .s0 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
 		.van .s1 { fill: #001138 } 
-		.van .s2 { fill: url(#g1) } 
+		.van .s2 { fill: url(#van1) } 
 		.van .s3 { fill: #002a40 } 
-		.van .s4 { fill: url(#g2) } 
+		.van .s4 { fill: url(#van2) } 
 		.van .s5 { opacity: .5;mix-blend-mode: screen;fill: #fff7cc } 
 		.van .s6 { opacity: .4;mix-blend-mode: screen;fill: #fff7cc } 
 		.van .s7 { opacity: .5;mix-blend-mode: multiply;fill: #22567d } 
-		.van .s8 { fill: url(#g3) } 
-		.van .s9 { fill: url(#g4) } 
-		.van .s10 { fill: url(#g5) } 
-		.van .s11 { opacity: .4;mix-blend-mode: multiply;fill: url(#g6) } 
-		.van .s12 { opacity: .7;mix-blend-mode: screen;fill: url(#g7) } 
-		.van .s13 { opacity: .7;mix-blend-mode: screen;fill: url(#g8) } 
-		.van .s14 { opacity: .7;mix-blend-mode: screen;fill: url(#g9) } 
-		.van .s15 { fill: url(#g10) } 
-		.van .s16 { fill: url(#g11) } 
+		.van .s8 { fill: url(#van3) } 
+		.van .s9 { fill: url(#van4) } 
+		.van .s10 { fill: url(#van5) } 
+		.van .s11 { opacity: .4;mix-blend-mode: multiply;fill: url(#van6) } 
+		.van .s12 { opacity: .7;mix-blend-mode: screen;fill: url(#van7) } 
+		.van .s13 { opacity: .7;mix-blend-mode: screen;fill: url(#van8) } 
+		.van .s14 { opacity: .7;mix-blend-mode: screen;fill: url(#van9) } 
+		.van .s15 { fill: url(#van10) } 
+		.van .s16 { fill: url(#van11) } 
 		.van .s17 { fill: #ffd699 } 
 		.van .s18 { fill: #fff7cc } 
 		.van .s19 { opacity: .4;mix-blend-mode: multiply;fill: #b86053 } 
 		.van .s20 { fill: #d96118 } 
 		.van .s21 { fill: #f7a01e } 
-		.van .s22 { fill: url(#g12) } 
+		.van .s22 { fill: url(#van12) } 
 		.van .s23 { fill: #9a1418 } 
 		.van .s24 { opacity: .3;mix-blend-mode: screen;fill: #fff7cc } 
 		.van .s25 { fill: #e36519 } 
-		.van .s26 { fill: url(#g13) } 
-		.van .s27 { fill: url(#g14) } 
-		.van .s28 { fill: url(#g15) } 
+		.van .s26 { fill: url(#van13) } 
+		.van .s27 { fill: url(#van14) } 
+		.van .s28 { fill: url(#van15) } 
 		.van .s29 { opacity: .7;mix-blend-mode: screen;fill: #fff7cc } 
 		.van .s30 { fill: #004d5c } 
-		.van .s31 { fill: url(#g16) } 
+		.van .s31 { fill: url(#van16) } 
 	</style>
