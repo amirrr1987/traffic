@@ -1,5 +1,5 @@
 <template>
-<svg viewBox="0 0 240 252" class="old-man" :style="`left:${leftPosition}; top: ${topPosition}; height: ${heightSize} `">
+<svg viewBox="0 0 240 252" class="old-man absolute" :style="`left:${leftPosition}; top: ${topPosition}; height: ${heightSize}; z-index: ${zIndex}`">
 	<title>The Old Man</title>
 	<defs>
 		<linearGradient id="oldMan1" x1="26.1" y1="134.8" x2="94.7" y2="58.1" gradientUnits="userSpaceOnUse">
@@ -275,6 +275,7 @@
   topPosition: String,
   leftPosition: String,
   heightSize: String,
+  zIndex: String,
 })
 </script>
 	<style>
