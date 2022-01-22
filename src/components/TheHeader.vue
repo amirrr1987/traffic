@@ -25,12 +25,14 @@
       topPosition="20vw"
       heightSize="11vw"
       zIndex="4"
+      class="left-right"
     />
     <TheOrangeCar
       leftPosition="54vw"
       topPosition="30vw"
       heightSize="18vw"
       zIndex="7"
+      :class="orangeCarClass"
     />
     <TheOldMan
       leftPosition="19vw"
@@ -58,6 +60,7 @@
       topPosition="19vw"
       heightSize="10vw"
       zIndex="2"
+      class="right-left"
   
   
     />
@@ -78,7 +81,7 @@ import { onMounted, ref } from "vue";
 const redStatus = ref(false)
 const yellowStatus = ref(false)
 const greenStatus = ref(true)
-
+const orangeCarClass = ref('')
 onMounted(() => {
 setTimeout(()=>{
 greenStatus.value = false
@@ -88,6 +91,11 @@ setTimeout(()=>{
 yellowStatus.value = false
 redStatus.value = true
 },9000)
+setTimeout(()=>{
+greenStatus.value = true
+redStatus.value = false
+orangeCarClass.value = 'scale-out-top'
+},22000)
 })
 
 
@@ -103,18 +111,36 @@ redStatus.value = true
 }
 @keyframes left-keyframes {
   0% {
-    left: -100vw;
+    left: -20vw;
+  }
+  20% {
+    left:-2vw;
+  }
+  30% {
+    left: -2vw;
+  }
+  50% {
+    left: 100vw;
   }
   100% {
     left: 100vw;
   }
 }
 .right-left {
-  animation: right-keyframes 16s linear infinite both;
+  animation: right-keyframes 30s linear infinite both;
 }
 @keyframes right-keyframes {
   0% {
     left: 100vw;
+  }
+  20%{
+    left:75vw
+  }
+  30%{
+    left:75vw
+  }
+  50%{
+    left:50vw
   }
   100% {
     left: -100vw;
