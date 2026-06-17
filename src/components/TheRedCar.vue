@@ -180,37 +180,3 @@
   zIndex: String,
 })
 </script>
-	<style>
-		.red-car .s0 { fill: #fff7cc } 
-		.red-car .s1 { fill: #001138 } 
-		.red-car .s2 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
-		.red-car .s3 { fill: url(#redCar1) } 
-		.red-car .s4 { fill: #002a40 } 
-		.red-car .s5 { fill: url(#redCar2) } 
-		.red-car .s6 { opacity: .5;mix-blend-mode: screen;fill: #fff7cc } 
-		.red-car .s7 { opacity: .4;mix-blend-mode: screen;fill: #fff7cc } 
-		.red-car .s8 { opacity: .5;mix-blend-mode: multiply;fill: #22567d } 
-		.red-car .s9 { fill: url(#redCar3) } 
-		.red-car .s10 { fill: url(#redCar4) } 
-		.red-car .s11 { fill: url(#redCar5) } 
-		.red-car .s12 { fill: url(#redCar6) } 
-		.red-car .s13 { fill: url(#redCar7) } 
-		.red-car .s14 { fill: url(#redCar8) } 
-		.red-car .s15 { fill: #993352 } 
-		.red-car .s16 { fill: url(#redCar9) } 
-		.red-car .s17 { fill: #9a1418 } 
-		.red-car .s18 { opacity: .3;mix-blend-mode: screen;fill: #fff7cc } 
-		.red-car .s19 { fill: #d96118 } 
-		.red-car .s20 { opacity: .4;mix-blend-mode: multiply;fill: #b86053 } 
-		.red-car .s21 { opacity: .7;mix-blend-mode: screen;fill: url(#redCar10) } 
-		.red-car .s22 { fill: #ffd699 } 
-		.red-car .s23 { fill: #f7a01e } 
-		.red-car .s24 { opacity: .7;mix-blend-mode: screen;fill: #fff7cc } 
-		.red-car .s25 { opacity: .7;mix-blend-mode: screen;fill: url(#redCar11) } 
-		.red-car .s26 { fill: url(#redCar12) } 
-		.red-car .s27 { fill: url(#redCar13) } 
-		.red-car .s28 { fill: #004d5c } 
-		.red-car .s29 { fill: url(#redCar14) } 
-		.red-car .s30 { fill: url(#redCar15) } 
-		.red-car .s31 { fill: url(#redCar16) } 
-	</style>

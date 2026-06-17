@@ -1,3 +1,981 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@layer components {
+  .green-car .s0 {
+    fill: #fff7cc;
+  }
+
+  .green-car .s1 {
+    fill: #001138;
+  }
+
+  .green-car .s2 {
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .green-car .s3 {
+    fill: url(#geenCar1);
+  }
+
+  .green-car .s4 {
+    fill: #002a40;
+  }
+
+  .green-car .s5 {
+    fill: url(#geenCar2);
+  }
+
+  .green-car .s6 {
+    opacity: 0.5;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .green-car .s7 {
+    opacity: 0.4;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .green-car .s8 {
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    fill: #22567d;
+  }
+
+  .green-car .s9 {
+    fill: url(#geenCar3);
+  }
+
+  .green-car .s10 {
+    fill: url(#geenCar4);
+  }
+
+  .green-car .s11 {
+    fill: url(#geenCar5);
+  }
+
+  .green-car .s12 {
+    fill: url(#geenCar6);
+  }
+
+  .green-car .s13 {
+    fill: url(#geenCar7);
+  }
+
+  .green-car .s14 {
+    fill: url(#geenCar8);
+  }
+
+  .green-car .s15 {
+    fill: #003957;
+  }
+
+  .green-car .s16 {
+    fill: url(#geenCar9);
+  }
+
+  .green-car .s17 {
+    fill: #ffd699;
+  }
+
+  .green-car .s18 {
+    fill: #d96118;
+  }
+
+  .green-car .s19 {
+    fill: #3d7028;
+  }
+
+  .green-car .s20 {
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .green-car .s21 {
+    fill: #f7a01e;
+  }
+
+  .green-car .s22 {
+    fill: #fffff5;
+  }
+
+  .green-car .s23 {
+    fill: #9a1418;
+  }
+
+  .green-car .s24 {
+    opacity: 0.3;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .green-car .s25 {
+    fill: #b86053;
+  }
+
+  .green-car .s26 {
+    fill: url(#geenCar10);
+  }
+
+  .green-car .s27 {
+    fill: url(#geenCar11);
+  }
+
+  .green-car .s28 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .green-car .s29 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: url(#geenCar12);
+  }
+
+  .green-car .s30 {
+    fill: url(#geenCar13);
+  }
+
+  .green-car .s31 {
+    fill: url(#geenCar14);
+  }
+
+  .green-car .s32 {
+    opacity: 0.2;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .green-car .s33 {
+    fill: url(#geenCar15);
+  }
+
+  .green-car .s34 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: url(#geenCar16);
+  }
+
+  .old-man .s0 {
+    fill: #fff7cc;
+  }
+
+  .old-man .s1 {
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .old-man .s2 {
+    fill: #131f49;
+  }
+
+  .old-man .s3 {
+    fill: url(#oldMan1);
+  }
+
+  .old-man .s4 {
+    opacity: 0.3;
+    mix-blend-mode: multiply;
+    fill: #708588;
+  }
+
+  .old-man .s5 {
+    fill: url(#oldMan2);
+  }
+
+  .old-man .s6 {
+    opacity: 0.3;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .old-man .s7 {
+    fill: #dad1c0;
+  }
+
+  .old-man .s8 {
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .old-man .s9 {
+    fill: #f09372;
+  }
+
+  .old-man .s10 {
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    fill: #708588;
+  }
+
+  .old-man .s11 {
+    opacity: 0.5;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .old-man .s12 {
+    opacity: 0.3;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .old-man .s13 {
+    fill: url(#oldMan3);
+  }
+
+  .old-man .s14 {
+    opacity: 0.6;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .old-man .s15 {
+    fill: #600003;
+  }
+
+  .old-man .s16 {
+    opacity: 0.2;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .old-man .s17 {
+    fill: #22567d;
+  }
+
+  .old-man .s18 {
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    fill: #14466a;
+  }
+
+  .old-man .s19 {
+    fill: url(#oldMan4);
+  }
+
+  .old-man .s20 {
+    fill: url(#oldMan5);
+  }
+
+  .old-man .s21 {
+    opacity: 0.7;
+    mix-blend-mode: multiply;
+    fill: #22567d;
+  }
+
+  .old-man .s22 {
+    fill: url(#oldMan6);
+  }
+
+  .old-man .s23 {
+    opacity: 0.4;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .old-man .s24 {
+    fill: url(#oldMan7);
+  }
+
+  .old-man .s25 {
+    fill: url(#oldMan8);
+  }
+
+  .old-man .s26 {
+    fill: #d9e021;
+  }
+
+  .old-man .s27 {
+    fill: url(#oldMan9);
+  }
+
+  .old-man .s28 {
+    fill: url(#oldMan10);
+  }
+
+  .old-man .s29 {
+    fill: url(#oldMan11);
+  }
+
+  .old-man .s30 {
+    fill: url(#oldMan12);
+  }
+
+  .old-man .s31 {
+    fill: url(#oldMan13);
+  }
+
+  .old-man .s32 {
+    fill: url(#oldMan14);
+  }
+
+  .old-man .s33 {
+    fill: url(#oldMan15);
+  }
+
+  .old-man .s34 {
+    fill: url(#oldMan16);
+  }
+
+  .old-man .s35 {
+    fill: url(#oldMan17);
+  }
+
+  .old-man .s36 {
+    fill: url(#oldMan18);
+  }
+
+  .old-man .s37 {
+    fill: url(#oldMan19);
+  }
+
+  .old-man .s38 {
+    fill: url(#oldMan20);
+  }
+
+  .old-man .s39 {
+    fill: url(#oldMan21);
+  }
+
+  .old-man .s40 {
+    fill: url(#oldMan22);
+  }
+
+  .old-man .s41 {
+    fill: url(#oldMan23);
+  }
+
+  .old-man .s42 {
+    opacity: 0.3;
+    mix-blend-mode: multiply;
+    fill: #22567d;
+  }
+
+  .old-man .s43 {
+    fill: #ffd699;
+  }
+
+  .orange-car .s0 {
+    fill: url(#orangeCar1);
+  }
+
+  .orange-car .s1 {
+    fill: url(#orangeCar2);
+  }
+
+  .orange-car .s2 {
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .orange-car .s3 {
+    opacity: 0.5;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .orange-car .s4 {
+    fill: url(#orangeCar3);
+  }
+
+  .orange-car .s5 {
+    fill: url(#orangeCar4);
+  }
+
+  .orange-car .s6 {
+    fill: url(#orangeCar5);
+  }
+
+  .orange-car .s7 {
+    fill: url(#orangeCar6);
+  }
+
+  .orange-car .s8 {
+    fill: url(#orangeCar7);
+  }
+
+  .orange-car .s9 {
+    fill: url(#orangeCar8);
+  }
+
+  .orange-car .s10 {
+    fill: url(#orangeCar9);
+  }
+
+  .orange-car .s11 {
+    fill: url(#orangeCar10);
+  }
+
+  .orange-car .s12 {
+    fill: url(#orangeCar11);
+  }
+
+  .orange-car .s13 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: url(#orangeCar12);
+  }
+
+  .orange-car .s14 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: url(#orangeCar13);
+  }
+
+  .orange-car .s15 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: url(#orangeCar14);
+  }
+
+  .orange-car .s16 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: url(#orangeCar15);
+  }
+
+  .orange-car .s17 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: url(#orangeCar16);
+  }
+
+  .orange-car .s18 {
+    fill: #ffd699;
+  }
+
+  .orange-car .s19 {
+    fill: #fff7cc;
+  }
+
+  .orange-car .s20 {
+    fill: #9a1418;
+  }
+
+  .orange-car .s21 {
+    opacity: 0.3;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .orange-car .s22 {
+    fill: #d96118;
+  }
+
+  .orange-car .s23 {
+    fill: url(#orangeCar17);
+  }
+
+  .orange-car .s24 {
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .orange-car .s25 {
+    opacity: 0.6;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .police .s0 {
+    fill: #fff7cc;
+  }
+
+  .police .s1 {
+    fill: url(#police1);
+  }
+
+  .police .s2 {
+    fill: url(#police2);
+  }
+
+  .police .s3 {
+    fill: #dad1c0;
+  }
+
+  .police .s4 {
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    fill: #547275;
+  }
+
+  .police .s5 {
+    opacity: 0.3;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .police .s6 {
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    fill: #22567d;
+  }
+
+  .police .s7 {
+    fill: #f7f4eb;
+  }
+
+  .police .s8 {
+    opacity: 0.3;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .police .s9 {
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .police .s10 {
+    fill: #600003;
+  }
+
+  .police .s11 {
+    opacity: 0.2;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .police .s12 {
+    opacity: 0.6;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .police .s13 {
+    fill: url(#police3);
+  }
+
+  .police .s14 {
+    fill: #131f49;
+  }
+
+  .police .s15 {
+    fill: #14466a;
+  }
+
+  .police .s16 {
+    fill: url(#police4);
+  }
+
+  .police .s17 {
+    fill: url(#police5);
+  }
+
+  .police .s18 {
+    fill: #00b8c4;
+  }
+
+  .police .s19 {
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    fill: #22567d;
+  }
+
+  .police .s20 {
+    fill: url(#police6);
+  }
+
+  .police .s21 {
+    fill: url(#police7);
+  }
+
+  .police .s22 {
+    fill: #f7a01e;
+  }
+
+  .police .s23 {
+    opacity: 0.3;
+    mix-blend-mode: multiply;
+    fill: #ad522f;
+  }
+
+  .police .s24 {
+    opacity: 0.5;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .police .s25 {
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    fill: #ad522f;
+  }
+
+  .police .s26 {
+    opacity: 0.1;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .police .s27 {
+    fill: #f0835e;
+  }
+
+  .police .s28 {
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .police .s29 {
+    fill: url(#police8);
+  }
+
+  .police .s30 {
+    fill: #f09372;
+  }
+
+  .police .s31 {
+    fill: url(#police9);
+  }
+
+  .police .s32 {
+    fill: url(#police10);
+  }
+
+  .police .s33 {
+    fill: url(#police11);
+  }
+
+  .police .s34 {
+    opacity: 0.6;
+    mix-blend-mode: multiply;
+    fill: #22567d;
+  }
+
+  .police .s35 {
+    opacity: 0.4;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .police .s36 {
+    opacity: 0.6;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .police .s37 {
+    fill: url(#police12);
+  }
+
+  .police .s38 {
+    fill: url(#police13);
+  }
+
+  .police .s39 {
+    fill: url(#police14);
+  }
+
+  .police .s40 {
+    fill: #d96118;
+  }
+
+  .red-car .s0 {
+    fill: #fff7cc;
+  }
+
+  .red-car .s1 {
+    fill: #001138;
+  }
+
+  .red-car .s2 {
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .red-car .s3 {
+    fill: url(#redCar1);
+  }
+
+  .red-car .s4 {
+    fill: #002a40;
+  }
+
+  .red-car .s5 {
+    fill: url(#redCar2);
+  }
+
+  .red-car .s6 {
+    opacity: 0.5;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .red-car .s7 {
+    opacity: 0.4;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .red-car .s8 {
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    fill: #22567d;
+  }
+
+  .red-car .s9 {
+    fill: url(#redCar3);
+  }
+
+  .red-car .s10 {
+    fill: url(#redCar4);
+  }
+
+  .red-car .s11 {
+    fill: url(#redCar5);
+  }
+
+  .red-car .s12 {
+    fill: url(#redCar6);
+  }
+
+  .red-car .s13 {
+    fill: url(#redCar7);
+  }
+
+  .red-car .s14 {
+    fill: url(#redCar8);
+  }
+
+  .red-car .s15 {
+    fill: #993352;
+  }
+
+  .red-car .s16 {
+    fill: url(#redCar9);
+  }
+
+  .red-car .s17 {
+    fill: #9a1418;
+  }
+
+  .red-car .s18 {
+    opacity: 0.3;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .red-car .s19 {
+    fill: #d96118;
+  }
+
+  .red-car .s20 {
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .red-car .s21 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: url(#redCar10);
+  }
+
+  .red-car .s22 {
+    fill: #ffd699;
+  }
+
+  .red-car .s23 {
+    fill: #f7a01e;
+  }
+
+  .red-car .s24 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .red-car .s25 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: url(#redCar11);
+  }
+
+  .red-car .s26 {
+    fill: url(#redCar12);
+  }
+
+  .red-car .s27 {
+    fill: url(#redCar13);
+  }
+
+  .red-car .s28 {
+    fill: #004d5c;
+  }
+
+  .red-car .s29 {
+    fill: url(#redCar14);
+  }
+
+  .red-car .s30 {
+    fill: url(#redCar15);
+  }
+
+  .red-car .s31 {
+    fill: url(#redCar16);
+  }
+
+  .van .s0 {
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .van .s1 {
+    fill: #001138;
+  }
+
+  .van .s2 {
+    fill: url(#van1);
+  }
+
+  .van .s3 {
+    fill: #002a40;
+  }
+
+  .van .s4 {
+    fill: url(#van2);
+  }
+
+  .van .s5 {
+    opacity: 0.5;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .van .s6 {
+    opacity: 0.4;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .van .s7 {
+    opacity: 0.5;
+    mix-blend-mode: multiply;
+    fill: #22567d;
+  }
+
+  .van .s8 {
+    fill: url(#van3);
+  }
+
+  .van .s9 {
+    fill: url(#van4);
+  }
+
+  .van .s10 {
+    fill: url(#van5);
+  }
+
+  .van .s11 {
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    fill: url(#van6);
+  }
+
+  .van .s12 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: url(#van7);
+  }
+
+  .van .s13 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: url(#van8);
+  }
+
+  .van .s14 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: url(#van9);
+  }
+
+  .van .s15 {
+    fill: url(#van10);
+  }
+
+  .van .s16 {
+    fill: url(#van11);
+  }
+
+  .van .s17 {
+    fill: #ffd699;
+  }
+
+  .van .s18 {
+    fill: #fff7cc;
+  }
+
+  .van .s19 {
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+    fill: #b86053;
+  }
+
+  .van .s20 {
+    fill: #d96118;
+  }
+
+  .van .s21 {
+    fill: #f7a01e;
+  }
+
+  .van .s22 {
+    fill: url(#van12);
+  }
+
+  .van .s23 {
+    fill: #9a1418;
+  }
+
+  .van .s24 {
+    opacity: 0.3;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .van .s25 {
+    fill: #e36519;
+  }
+
+  .van .s26 {
+    fill: url(#van13);
+  }
+
+  .van .s27 {
+    fill: url(#van14);
+  }
+
+  .van .s28 {
+    fill: url(#van15);
+  }
+
+  .van .s29 {
+    opacity: 0.7;
+    mix-blend-mode: screen;
+    fill: #fff7cc;
+  }
+
+  .van .s30 {
+    fill: #004d5c;
+  }
+
+  .van .s31 {
+    fill: url(#van16);
+  }
+}

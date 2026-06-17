@@ -174,37 +174,3 @@
   zIndex: String,
 })
 </script>
-	<style>
-		.van .s0 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
-		.van .s1 { fill: #001138 } 
-		.van .s2 { fill: url(#van1) } 
-		.van .s3 { fill: #002a40 } 
-		.van .s4 { fill: url(#van2) } 
-		.van .s5 { opacity: .5;mix-blend-mode: screen;fill: #fff7cc } 
-		.van .s6 { opacity: .4;mix-blend-mode: screen;fill: #fff7cc } 
-		.van .s7 { opacity: .5;mix-blend-mode: multiply;fill: #22567d } 
-		.van .s8 { fill: url(#van3) } 
-		.van .s9 { fill: url(#van4) } 
-		.van .s10 { fill: url(#van5) } 
-		.van .s11 { opacity: .4;mix-blend-mode: multiply;fill: url(#van6) } 
-		.van .s12 { opacity: .7;mix-blend-mode: screen;fill: url(#van7) } 
-		.van .s13 { opacity: .7;mix-blend-mode: screen;fill: url(#van8) } 
-		.van .s14 { opacity: .7;mix-blend-mode: screen;fill: url(#van9) } 
-		.van .s15 { fill: url(#van10) } 
-		.van .s16 { fill: url(#van11) } 
-		.van .s17 { fill: #ffd699 } 
-		.van .s18 { fill: #fff7cc } 
-		.van .s19 { opacity: .4;mix-blend-mode: multiply;fill: #b86053 } 
-		.van .s20 { fill: #d96118 } 
-		.van .s21 { fill: #f7a01e } 
-		.van .s22 { fill: url(#van12) } 
-		.van .s23 { fill: #9a1418 } 
-		.van .s24 { opacity: .3;mix-blend-mode: screen;fill: #fff7cc } 
-		.van .s25 { fill: #e36519 } 
-		.van .s26 { fill: url(#van13) } 
-		.van .s27 { fill: url(#van14) } 
-		.van .s28 { fill: url(#van15) } 
-		.van .s29 { opacity: .7;mix-blend-mode: screen;fill: #fff7cc } 
-		.van .s30 { fill: #004d5c } 
-		.van .s31 { fill: url(#van16) } 
-	</style>

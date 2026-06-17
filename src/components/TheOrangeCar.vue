@@ -144,31 +144,3 @@
   zIndex: String,
 })
 </script>
-	<style>
-		.orange-car .s0 { fill: url(#orangeCar1) } 
-		.orange-car .s1 { fill: url(#orangeCar2) } 
-		.orange-car .s2 { opacity: .4;mix-blend-mode: multiply;fill: #b86053 } 
-		.orange-car .s3 { opacity: .5;mix-blend-mode: screen;fill: #fff7cc } 
-		.orange-car .s4 { fill: url(#orangeCar3) } 
-		.orange-car .s5 { fill: url(#orangeCar4) } 
-		.orange-car .s6 { fill: url(#orangeCar5) } 
-		.orange-car .s7 { fill: url(#orangeCar6) } 
-		.orange-car .s8 { fill: url(#orangeCar7) } 
-		.orange-car .s9 { fill: url(#orangeCar8) } 
-		.orange-car .s10 { fill: url(#orangeCar9) } 
-		.orange-car .s11 { fill: url(#orangeCar10) } 
-		.orange-car .s12 { fill: url(#orangeCar11) } 
-		.orange-car .s13 { opacity: .7;mix-blend-mode: screen;fill: url(#orangeCar12) } 
-		.orange-car .s14 { opacity: .7;mix-blend-mode: screen;fill: url(#orangeCar13) } 
-		.orange-car .s15 { opacity: .7;mix-blend-mode: screen;fill: url(#orangeCar14) } 
-		.orange-car .s16 { opacity: .7;mix-blend-mode: screen;fill: url(#orangeCar15) } 
-		.orange-car .s17 { opacity: .7;mix-blend-mode: screen;fill: url(#orangeCar16) } 
-		.orange-car .s18 { fill: #ffd699 } 
-		.orange-car .s19 { fill: #fff7cc } 
-		.orange-car .s20 { fill: #9a1418 } 
-		.orange-car .s21 { opacity: .3;mix-blend-mode: screen;fill: #fff7cc } 
-		.orange-car .s22 { fill: #d96118 } 
-		.orange-car .s23 { fill: url(#orangeCar17) } 
-		.orange-car .s24 { opacity: .5;mix-blend-mode: multiply;fill: #b86053 } 
-		.orange-car .s25 { opacity: .6;mix-blend-mode: multiply;fill: #b86053 } 
-	</style>
